@@ -9,7 +9,8 @@ public class Graph {
 
     private String name;
     // The x and y that the graph will stretch to
-    private int x, y;
+    private int x;
+    private int y;
 
     public Graph(String name, int x, int y) {
         this.name = name;
